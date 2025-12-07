@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arsath | Portfolio</title>
+
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="bg-[#0b0f19] text-gray-200">
+
+  <header>
+    <nav class="fixed w-full top-0 left-0 backdrop-blur-xl bg-black/40 border-b border-cyan-400/20 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" title="Arsath Noordeen"><h1 class="text-3xl font-bold text-cyan-400">Arsath Noordeen</h1></a>
+
+            <div class="hidden md:flex space-x-7 text-lg">
+                <a class="hover:text-cyan-400 duration-200" href="#home">Home</a>
+                <a class="hover:text-cyan-400 duration-200" href="#about">About</a>
+                <a class="hover:text-cyan-400 duration-200" href="#skills">Skills</a>
+                <a class="hover:text-cyan-400 duration-200" href="#projects">Projects</a>
+                <a class="hover:text-cyan-400 duration-200" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+  </header>  
+
+  <main>
+    <section id="home"
+        class="min-h-screen flex flex-col md:flex-row items-center justify-center gap-16 text-center md:text-left px-6 pt-20 fade-up">
+        <div>
+            <img src="src/IMG-20250714-WA0063-01.jpeg" alt="Profile"
+                class="w-56 h-56  rounded-full border-4 border-cyan-400 shadow-xl glow">
+        </div>
+        <div>
+            <h1 class="text-5xl md:text-7xl font-bold text-cyan-400">
+                Hi, I'm <span class="text-pink-500">Arsath</span>
+            </h1>
+            <p class="mt-6 text-xl text-gray-300">
+                Web Developer • UI/UX Designer 
+            </p>
+            <div class="flex justify-center md:justify-start gap-6 mt-8 text-3xl">
+                <a href="https://github.com/arsath-03" target="_blank" title="github" class="hover:text-cyan-400"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/arsath-noordeen-a-224129291/" target="_blank" title="LinkedIn" class="hover:text-blue-400"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/__arsath_03__/" target="_blank" title="Instagram" class="hover:text-blue-400"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="src/Arsath _resume.pdf"  download
+                class="inline-block mt-8 px-10 py-3 text-lg rounded-full bg-cyan-400 text-black font-semibold glow hover:bg-cyan-300">
+                Download CV
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="py-28 px-6 fade-up">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-4xl font-bold text-cyan-400">About Me</h2>
+            <p class="mt-8 text-gray-300 text-lg ">
+                I am a dedicated and enthusiastic Web Developer with a strong passion for building modern,
+                responsive, and visually appealing user interfaces. I specialize in HTML, CSS, JavaScript, Bootstrap and Tailwind CSS
+                , always aiming to create clean and user-friendly designs. <br><br>
+                Currently, I am doing my internship at <span class="text-cyan-300 font-semibold">CyberDude Networks Pvt Ltd</span>
+                where I work on real-world projects, learn industry workflow, and improve my development skills
+                every single day. I enjoy transforming ideas into functional and aesthetic web experiences.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="py-28 bg-[#0e1223] fade-up">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-pink-500">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-14">
+                <div class="p-6 border border-cyan-400/30 rounded-xl text-center text-xl font-semibold hover:border-cyan-400 glow">HTML</div>
+                <div class="p-6 border border-cyan-400/30 rounded-xl text-center text-xl font-semibold hover:border-cyan-400 glow">CSS</div>
+                <div class="p-6 border border-cyan-400/30 rounded-xl text-center text-xl font-semibold hover:border-cyan-400 glow">Java Script</div>
+                <div class="p-6 border border-cyan-400/30 rounded-xl text-center text-xl font-semibold hover:border-cyan-400 glow">Tailwind CSS</div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-28 bg-black fade-up">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-cyan-400">Projects</h2>
+            <div class="grid md:grid-cols-3 gap-10 mt-14">
+                <div
+                    class="bg-[#0e1223] border border-pink-400 rounded-xl overflow-hidden glow hover:-translate-y-0.5 transition">
+                    <img src="src/mp3Downloader.png" class="h-48 w-full object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-pink-400">MP3 Downloader</h3>
+                        <p class="mt-2 text-gray-400">A fast and simple Bulk MP3 Downloader built using Bootstrap.</p>
+
+                        <div class="mt-4 flex gap-4">
+                            <a href="https://arsath-03.github.io/MP3-Downloader-cyberdude/" target="_blank" class="px-4 py-2 border border-pink-400 text-pink-400 rounded-lg hover:bg-pink-400 hover:text-black">Live Link</a>
+                            <a href="https://github.com/Arsath-03/MP3-Downloader-cyberdude" target="_blank" class="px-4 py-2 border border-pink-400 text-pink-400 rounded-lg hover:bg-pink-400 hover:text-black">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="bg-[#0e1223] border border-pink-400 rounded-xl overflow-hidden glow hover:-translate-y-0.5 transition">
+                    <img src="src/landingpage.png" class="h-48 w-full object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-pink-400">Course Landing Page</h3>
+                        <p class="mt-2 text-gray-400">A Course landing page built using HTML and CSS.</p>
+
+                        <div class="mt-4 flex gap-4">
+                            <a href="https://arsath-03.github.io/Landing-Page/" target="_blank" class="px-4 py-2 border border-pink-400 text-pink-400 rounded-lg hover:bg-pink-400 hover:text-black">Live Link</a>
+                            <a href="https://github.com/Arsath-03/Landing-Page" target="_blank" class="px-4 py-2 border border-pink-400 text-pink-400 rounded-lg hover:bg-pink-400 hover:text-black">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="bg-[#0e1223] border border-pink-400 rounded-xl overflow-hidden glow hover:-translate-y-0.5 transition">
+                    <img src="src/gmeet.png" class="h-48 w-full object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-pink-400">ConnectX-Gmeet Clone</h3>
+                        <p class="mt-2 text-gray-400">A clone website of Google Meet built using Tailwind CSS.</p>
+
+                        <div class="mt-4 flex gap-4">
+                            <a href="https://arsath-03.github.io/cyberdude-ConnectX/" target="_blank" class="px-4 py-2 border border-pink-400 text-pink-400 rounded-lg hover:bg-pink-400 hover:text-black">Live Link</a>
+                            <a href="https://github.com/Arsath-03/cyberdude-ConnectX" target="_blank" class="px-4 py-2 border border-pink-400 text-pink-400 rounded-lg hover:bg-pink-400 hover:text-black">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-28 bg-[#0b0f19] fade-up">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-pink-500">Contact Me</h2>
+
+            <form class="mt-14 space-y-6">
+                <input type="text" placeholder="Your Name"
+                    class="w-full p-4 bg-[#0e1223] border border-cyan-400/30 rounded-xl text-white">
+
+                <input type="email" placeholder="Email Address"
+                    class="w-full p-4 bg-[#0e1223] border border-cyan-400/30 rounded-xl text-white">
+
+                <textarea rows="5" placeholder="Message"
+                    class="w-full p-4 bg-[#0e1223] border border-cyan-400/30 rounded-xl text-white"></textarea>
+
+                <button
+                    class="w-full py-3 bg-cyan-400 text-black font-bold rounded-xl glow hover:bg-cyan-300 transition">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+  </main>
+  <footer class="py-3 text-center text-gray-400 bg-black">
+        <div class="flex justify-center gap-8 text-2xl mb-4">
+            <a href="https://github.com/arsath-03" title="github" target="_blank" class="hover:text-cyan-400"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/arsath-noordeen-a-224129291/" target="_blank" title="LinkedIn" class="hover:text-cyan-400"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/__arsath_03__/" target="_blank" title="Instagram" class="hover:text-cyan-400"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        © 2025 Arsath — All Rights Reserved.
+  </footer>
+</body>
+
+</html>
